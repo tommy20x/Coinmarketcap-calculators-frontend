@@ -1,0 +1,271 @@
+.subscription-page {
+  margin-top: 60px;
+  .subscription {
+    padding: 32px 40px 64px;
+    border-radius: 32px;
+    background-color: #f7f9fa;
+  }
+
+  .select {
+    padding-right: 40px;
+    padding-left: 40px;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .ant-layout, .ant-layout * {
+    line-height: 20px;
+  }
+
+  .ant-radio-inner {
+    border-width: 2px;
+  }
+
+  .ant-radio-wrapper:hover {
+    color: #871c85;
+    .ant-radio-inner {
+      border-color: #871c85;
+    }
+  }
+
+  .ant-radio-wrapper {
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    font-family: 'MySegoeUI';
+    margin-left: 30px;
+  }
+
+  // .ant-radio-checked,
+  // .ant-radio-checked .ant-radio-inner,
+  .ant-radio-wrapper-checked {
+    color: @primary-color;
+  }
+
+  .content {
+    position: relative;
+  }
+  
+  .card-content {
+    position: relative;
+    width: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .subscription-page {
+    min-height: 100%;
+  }
+
+  .mt-5 {
+    margin-top: 50px;
+  }
+
+  .billed {
+    display: block;
+    justify-content: end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: right;
+    margin-right: 16.67%;
+    transform: translateX(50px);
+  }
+
+  .billed-item {
+    margin-top: 20px;
+  }
+
+  .mobile-menu {
+    display: none
+  }
+
+
+  .ant-tabs-tab-active {
+    background-color: #efeff6;
+    border-radius: 4px 4px 0 0;
+    position: relative;
+  }
+
+  .userbtn {
+    display: block;
+  }
+
+  .userbtn .ant-radio-wrapper {
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    font-family: 'MySegoeUI';
+    text-align: center;
+  }
+
+  .userbtn .ant-radio {
+    display: none;
+  }
+
+  .userbtn .ant-radio-group {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .userbtn .ant-radio-wrapper-checked {
+    background-color: #efeff6;
+  }
+
+  .userbtn .ant-radio-wrapper::after {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    height: 17px;
+    background-image: url("https://assets-global.website-files.com/5eb8d3f3c300199312debf24/5fd8026692f7503901af188e_pricing_sel_stretch.svg");
+    opacity: 0;
+  }
+
+  .userbtn .ant-radio-wrapper-checked::after {
+    opacity: 1;
+  }
+
+  .ant-slider {
+    width: 66.66%;
+    margin: 0;
+    margin-top: 30px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .userbtn-mobile {
+    display: none;
+  }
+
+  .billed-mobile {
+    display: none;
+  }
+
+  .ant-slider-handle {
+    z-index: 1000;
+    transform: translate(-50%, -10px)!important;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e2e6e9;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px -2px;
+  }
+
+  .ant-slider-track {
+    height: 4px;
+  }
+
+  .ant-slider-handle.ant-tooltip-open {
+    border-color: #e2e6e9;
+  }
+
+  .ant-slider-handle:focus {
+    box-shadow: 0px 4px 8px -2px;
+    border-color: #e2e6e9;
+  }
+
+  .ant-slider:hover .ant-slider-handle:not(.ant-tooltip-open) {
+    border-color: #e2e6e9;
+  }
+
+  .slider .before {
+    left: 0;
+    position: absolute;
+    margin-left: -50px;
+    width: 51px;
+    height: 4px;
+    background-color: #a1559a;
+  }
+
+  .ant-slider:hover .before {
+    background-color: #94378f;
+  }
+
+  .slider .after {
+    right: 0;
+    position: absolute;
+    margin-right: -50px;
+    width: 51px;
+    height: 4px;
+    background-color: #efeff6;
+  }
+
+  .card-align {
+     display : flex;
+  }
+
+  .ant-select {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .ant-select-selector {
+    height: 36px!important;
+  }
+
+  .ant-select-selection-item {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'MySegoeUI';
+    line-height: 1.3!important;
+    padding: 7px!important;
+  }
+
+  .ant-col {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .menu-wapper {
+    color: #191816;
+    font-family: "MySegoeUI";
+    font-size: medium;
+    padding: 4px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    .ant-col-lg-offset-0 {
+      margin-left: 2.083%;
+    }
+  }
+    
+  @media only screen and (max-width: 640px) { 
+    .userbtn {
+      display: none;
+    }
+
+    .card-content {
+      width: 90%;
+    }
+    
+    .userbtn-mobile {
+      position: relative;
+      display: block;
+      width: 90%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .billed {
+      display: none;
+    }
+
+    .billed-mobile {
+      position: relative;
+      display: block;
+      width: 90%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}

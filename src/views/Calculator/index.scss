@@ -1,0 +1,45 @@
+.crypto-page {
+  min-height: 100%;
+
+  .content {
+    background-color: #fdda5a;
+  }
+
+  .grid-bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+  }
+
+  .price-title {
+    font-size: 38px;
+    font-weight: 800;
+    color: #440645;
+  }
+
+  .coin-name {
+    margin-top: -12px;
+    font-size: 16px;
+  }
+
+  .image-button {
+    cursor: pointer;
+  }
+
+  .image-button:hover {
+    border: 1px solid;
+    border-color: transparent;
+  }
+
+  .content-row {
+    padding-left: 10%;
+    padding-right: 10%;
+  } 
+
+  @media only screen and (min-width: 1920px) {
+    .content-row {
+      padding-left: 14%;
+      padding-right: 14%;
+    }  
+  }
+}
